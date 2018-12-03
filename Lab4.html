@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>GEO4422/5409 Web Mapping|Hannah Sturm</title>
+		<!--GEO4422/5409 Web Mapping-->
+		<!--Author: Hannah Sturm-->
+		<!--Date produced: September 23, 2018-->
+		<link rel = "stylesheet" type = "text/css" href = "styles.css">
+				
+		<meta charset = "UTF-8">
+	</head>
+	<body>
+		
+		<!--set up header-->
+		<div id="header">
+			<h1 class = "title">GEO 4422/5408</h1>
+			<!--set up top navigation bar-->
+			<div class = "topnav">
+				<!--link to my home page-->
+				<a href = "index.html"><strong>Home</strong></a>
+				<!--link to TX State's home page-->
+				<a href = "http://www.txstate.edu"><strong>Texas State University</strong></a>
+				<!-- link to TX State's Geography home page-->
+				<a href = "http://www.geo.txstate.edu"><strong>Department of Geography</strong></a>
+			</div>
+		</div>
+				
+		<!--set up left navigation area -->
+		<div id = "left-nav">
+			<div class = "myprojects">
+				<h2>My Projects</h2>
+				<ul>
+					<!--link to evaluated webpage-->
+					<li class = "lab"><a href = "http://mapserv.utah.gov/broadband/#/route/extent=-12438897|4812504|2311162">Lab 1</a></li>
+					<!--link to my google sites page-->
+					<li class = "lab"><a href = "https://sites.google.com/view/hcsturm">Lab 2</a></li>
+				</ul>
+			</div>
+		</div>
+		
+		<!-- set up main content area-->	
+		<div id="content">
+			<h1 class = "welcome"><p>Welcome!</p></h1>
+			<h1 id="prompt"><script>
+				x = window.prompt("Please enter your name", "Your name here");
+				document.write(x);	 
+			</script></h1>
+			<p class = "image"><img src="Me.jpg" alt="Hannah with sister in law and brother" style="float: left;width: 350px; height: 300px"/></p>
+			<div id="Info">
+				<p class ="Name"><strong>Hannah Sturm</strong></p>
+				<p class ="Program"><strong>Program:</strong> Master's of Applied Geography</p>
+				<p class ="Major"><strong>Major:</strong> Geographic Information Science</p>
+				<p class ="Email"><strong>Email:</strong><a href = "mailto: hcs49@txstate.edu"> hcs49@txstate.edu</a></p>
+			</div>
+			<div id="researchinterests">
+				<h3>Research Interests:</h3>
+					<ul>
+						<li>Remote Sensing</li>
+						<li>Water Quality</li>
+						<li>Oil and Gas Quality</li>
+						<li>Programming</li>
+					</ul>
+			</div>
+			<div id="visitorInfo">
+				<h3>Visitor Info</h3>
+				<form id = "addressform">
+					Name: <input type="text" id="yourname" ><br />
+					Phone: <input type="text" id="phone"><br />
+					Email: <input type="text" id="email"><br />
+					<input type="submit" name="Submit" value="submit" onclick="myFunction(); return false;">
+				</form>
+			
+			</div>
+		</div>
+		<!--set up footer-->	
+		<div id="footer">
+			<!--set up bottom navigation bar-->
+			<div class = "bottomnav">
+				<!--link to my home page-->
+				<a href = "index.html"><strong>Home</strong></a>
+				<!--link to TX State's home page-->
+				<a href = "http://www.txstate.edu"><strong>Texas State University</strong></a>
+				<!-- link to TX State's Geography home page-->
+				<a href = "http://www.geo.txstate.edu"><strong>Department of Geography</strong></a>
+					
+			</div>
+			<div class = "copyright">
+				<p class="copyright2018">Copyright 2018</p>
+				<p class="Me"><strong>Hannah Sturm</strong></p>
+				<p class="allrights">All right reserved</p>
+				<!-- today's date -->
+				<p class = "date"><script>
+					var d = new Date().toLocaleString();
+					document.writeln(d);
+				</script></p>
+			</div>
+		</div>
+
+ 		<script type="text/javascript" src = "external.js"></script>
+	</body>
+</html>

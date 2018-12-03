@@ -1,0 +1,187 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+}
+/* set up header and footer style */
+#header, #footer {
+	position: relative;
+	text-align: center;
+	height: 200px;
+	width: 1350px;
+	background-image: url("txstategeo.jpg");
+	border: 10px double #191970;
+	margin-right: 5px;
+}
+
+.title {
+	font-family: Georgia;
+	font-size: 75px;
+	color: #800000;
+	vertical-align: middle;
+	text-shadow:  -1px -1px 0 #ffffff,
+    				1px -1px 0 #ffffff,
+    				-1px 1px 0 #ffffff,
+    				1px 1px 0 #ffffff; 
+}
+/* set up top and bottom navigation bar links style */
+.topnav, .bottomnav {
+	position: absolute;
+	left: 200px;
+	height: 50px;
+	width: 1000px;
+	font-size: 25px;
+	font-family: Georgia;
+	text-shadow:  -1px -1px 0 #ffffff,
+    				1px -1px 0 #ffffff,
+    				-1px 1px 0 #ffffff,
+    				1px 1px 0 #ffffff; 
+}
+.topnav a, .bottomnav a {
+	display: inline-block;
+	padding: 20px;
+	color: #000080;
+}
+
+.topnav a:visited, .bottomnav a:visted {
+	color: purple; 
+}
+
+.topnav {
+	bottom: 0
+}
+
+.bottomnav {
+	top: 0
+	font-family: Georgia;
+}
+
+/* set up left navigation bar style */
+#left-nav {
+	width: 338px;
+	height: 600px;
+	background-color: #e6e6fa;
+	border: 4px dashed #5f9ea0
+}
+
+.myprojects h2 {
+	text-align: center;
+}
+
+.lab {
+	list-style: none;
+	padding: 15px;
+	color: #483d8b
+}
+
+.lab a:visted {
+	color: #8b008b;
+}
+
+/* set up content area style */
+#content {
+	height: 600px;
+	width: 1012px;
+	position: relative;
+	left: 338px;
+	top: -600px;
+	background-color: #20b2aa;
+	border: 10px dotted #afeeee;
+	background-image: url("TAM-Burgundy.jpg");
+}
+
+.welcome {
+	position: relative;
+	text-align: left;
+	left: 300px;
+	color: #000080;
+	font-family: Geneva;
+}
+
+#prompt {
+	position:absolute;
+	right: 45%;
+	bottom: 84%;
+	text-align: right;
+	float: right;
+	color: #000080;
+	font-family: Geneva;
+}
+
+.image {
+	position: relative;
+	left: 50px;
+}
+
+#Info {
+	position: relative;
+	text-align: center;
+	top: 100px;
+	z-index: 2;
+	left: 75px;
+}
+
+#researchinterests {
+	position: relative;
+	text-align: left;
+	bottom: -190px;
+	z-index: 2;
+	right: 170px;
+}
+
+#visitorInfo {
+	position: relative;
+	left: 70%;
+	z-index: 3
+}
+
+#footer {
+	top: -600px;
+}
+
+/* set up Copyright information */
+.copyright2018{
+	position: relative;
+	color: #800000;
+	top: 130px;
+	right: 35%;
+	text-shadow:  -1px -1px 0 #ffffff,
+    				1px -1px 0 #ffffff,
+    				-1px 1px 0 #ffffff,
+    				1px 1px 0 #ffffff; 
+}
+
+.Me {
+	position: absolute;
+	color: #800000;
+	top: 130px;
+	left: 35%;
+	text-shadow:  -1px -1px 0 #ffffff,
+    				1px -1px 0 #ffffff,
+    				-1px 1px 0 #ffffff,
+    				1px 1px 0 #ffffff; 
+}
+	
+.allrights {
+	position: absolute;
+	color: #800000;
+	top: 130px;
+	left: 60%;
+	text-shadow:  -1px -1px 0 #ffffff,
+    				1px -1px 0 #ffffff,
+    				-1px 1px 0 #ffffff,
+    				1px 1px 0 #ffffff; 
+}
+
+.date {
+	position: absolute;
+	color: #800000;
+	top: 130px;
+	left: 80%;
+	text-shadow:  -1px -1px 0 #ffffff,
+    				1px -1px 0 #ffffff,
+    				-1px 1px 0 #ffffff,
+    				1px 1px 0 #ffffff;
+}
